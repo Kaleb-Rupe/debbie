@@ -1,0 +1,53 @@
+/* Reset default margins and padding for body and html */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/nature_gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Squarespace';
+  color: hsl(284, 100%, 50%);
+}
+
+h4 {
+  color: #ffe83b;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 1);
+  -webkit-text-stroke: 2px rgb(84, 84, 84);
+}
+
+.nav-bar {
+  display: flex;
+  font-weight: 400;
+  font-size: 25px;
+  justify-content: space-around;
+}
+
+p {
+  color: rgb(3, 18, 0);
+  text-shadow: 2px 4px 6px rgb(255, 202, 202);
+}
+
+.footer {
+  padding-top: 5px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: right;
+}
+
+.container ul {
+  list-style-type: none;
+
+}
+
+.container ul li {
+  font-size: large;
+}
+
+.container p {
+  font-size: 1.5rem;
+}
